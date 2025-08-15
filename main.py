@@ -8,6 +8,7 @@ def show_menu():
     print("3. Mark task as Done")
     print("4. Delete Task")
     print("5. Exit")
+    print("6. About")
      
 # A function to add task    
 def add_task():
@@ -66,6 +67,8 @@ while True:
     elif choice == "5":
         print("bye!")
         break
+    elif choice == "6":
+        print ("A simple calculator app created by Narvin Parameswaran.")
     else:
         print("Invalid choice. Try again")
         
